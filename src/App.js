@@ -6,7 +6,7 @@ function App() {
   function handleCount(value) { 
     setCount(count + value);  
   }
-
+ 
   return ( 
     <div className="App">
       <h1>{count}</h1>

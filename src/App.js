@@ -4,7 +4,7 @@ function App() {
   let [count, setCount] = useState(0);
   
   function handleCount(value) { 
-    setCount(count + value); 
+    setCount(count + value);  
   }
 
   return ( 

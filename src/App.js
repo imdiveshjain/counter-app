@@ -7,7 +7,7 @@ function App() {
     setCount(count + value);
   }
 
-  return (
+  return ( 
     <div className="App">
       <h1>{count}</h1>
       <button onClick={() => handleCount(1)}>+</button>
